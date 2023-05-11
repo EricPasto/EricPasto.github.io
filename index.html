@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<!--Eric Pastó
+    Aleix de Diego
+    10/05/2023
+    rellotge i ruleta-->
+<html>
+<head>
+    <link rel="stylesheet" href="estilo.css">
+    <title>Reloj</title>
+</head>
+<audio id="audio">
+    <source src="/elements/Palo de metal callendose sonido.mp3" type="audio/mpeg">
+</audio>
+
+<body>
+    <nav style="background-color: orange;">
+        <h1>Reloj</h1>
+    </nav>
+
+    <div id="clock"></div>
+    <h2>Temporizador</h2>
+    <button onclick="startTimer()">Iniciar Temporizador</button>
+    <button onclick="stopTimer()">Detener Temporizador</button>
+    <button onclick="resetTimer()">Restablecer Temporizador</button>
+    <div id="timer"></div>
+
+
+    <button id="dark-mode-button" onclick="toggleDarkMode()">
+		<img src="elements/modo-oscuro.png"">
+	</button>
+
+	<a href="ruleta.html"><button id="ruleta-button">Ir a Ruleta</button></a>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
+
+
+
+
+

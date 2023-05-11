@@ -1,0 +1,154 @@
+/* Estilo para el cuerpo de la página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+/* Estilo para el encabezado */
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+/* Estilo para el reloj */
+#clock {
+    font-size: 10em;
+    margin: 40px;
+    text-align: center;
+    font-family: 'MiFuente', sans-serif;
+}
+
+
+/* Estilo para los botones */
+button {
+    padding: 10px;
+    margin: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Estilo para los botones al pasar el mouse por encima */
+button:hover {
+    background-color: #555;
+}
+
+/* Estilo para el campo de entrada de texto */
+input[type=text] {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+/* Estilo para el resultado de la selección aleatoria */
+#result {
+    font-size: 1.5em;
+    margin: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+.dark-mode {
+    background-color: #1a1a1a;
+    color: #ffffff;
+}
+body {
+	background-color: #FFFFFF;
+	color: #000000;
+	font-family: Arial, sans-serif;
+}
+
+#dark-mode-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+	margin-top: 20px;
+	background-color: #000000;
+	color: #FFFFFF;
+	border: none;
+	padding: 10px 20px;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+.dark-mode {
+	background-color: #1A1A1A;
+	color: #FFFFFF;
+}
+
+#clock, #timer, #result {
+	margin-top: 20px;
+	font-size: 36px;
+    font-family: 'MiFuente', sans-serif;
+}
+
+#result {
+	font-weight: bold;
+}
+/*fuente para el reloj*/
+@font-face {
+    font-family: 'MiFuente';
+    src: url('/ds-digital/DS-DIGII.TTF') format('truetype');
+}
+input[type="text"] {
+    border: 2px solid orange;
+}
+#dark-mode-button img {
+    height: 20px;
+    width: 40px;
+  }
+  .contenedor{
+	padding: 10px;
+	width: 980px;
+	max-width: calc(100% - 20px);
+	margin: auto;
+	margin-top: 50px;
+	color: #fff;
+	font-family: sans-serif;
+}
+.concursantes{
+	margin-top: 20px;
+	text-align: center;
+	margin: auto;
+	position: relative;
+}
+h1{
+	text-align: center;
+}
+canvas{
+	margin-top: 10px;
+	position: relative;
+	z-index: 1;
+}
+button{
+	position: relative;
+	padding: 10px 20px;
+	font-size: 18px;
+	background: #bf780f;
+	color: #fff;
+	border-style: none;
+	z-index: 10;
+	cursor: pointer;
+	margin-top: 10px;
+}
+.mark-winner{
+	position: absolute;
+	clip-path: polygon(0 10px,60px 0,60px 20px);
+	background: red;
+	width: 60px;
+	height: 20px;
+	top: 50%;
+	right: 18%;
+	z-index: 10;
+	box-shadow: 0 0 3px #33333399;
+}
+  
+
+
+
+
+
+  
+  
